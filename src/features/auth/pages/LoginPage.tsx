@@ -1,4 +1,5 @@
 
+import { Eye } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const LoginPage = () => {
@@ -78,7 +79,7 @@ const LoginPage = () => {
                   Forgot password?
                 </Link>
               </div>
-
+ <div className="relative">
               <input
                 id="password"
                 name="password"
@@ -87,6 +88,14 @@ const LoginPage = () => {
                 autoComplete="current-password"
                 className="w-full rounded-lg border border-gray-300 px-4 py-3 text-sm outline-none transition placeholder:text-gray-400 focus:border-teal-600 focus:ring-2 focus:ring-teal-100"
               />
+                                 <button
+      type="button"
+       className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-500 hover:text-teal-600"
+
+    >
+     <Eye/>
+    </button>
+    </div>
             </div>
 
             <button

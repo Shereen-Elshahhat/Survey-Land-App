@@ -11,19 +11,20 @@
   },
   "dependencies": {
     "@hookform/resolvers": "^5.9.2",
-    "@tailwindcss/vite": "^4.3.3",
     "axios": "^1.21.0",
+    "jwt-decode": "^4.0.0",
+    "lucide-react": "^1.72.0",
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
     "react-hook-form": "^7.91.0",
     "react-router-dom": "^7.18.5",
-    "tailwindcss": "^4.3.3",
     "zod": "^4.6.7"
   },
   "devDependencies": {
     "@babel/core": "^7.29.7",
     "@eslint/js": "^10.0.1",
     "@rolldown/plugin-babel": "^0.2.4",
+    "@tailwindcss/vite": "^4.3.4",
     "@types/babel__core": "^7.20.5",
     "@types/node": "^24.19.2",
     "@types/react": "^19.3.0",
@@ -34,6 +35,7 @@
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.7",
     "globals": "^17.13.0",
+    "tailwindcss": "^4.3.4",
     "typescript": "~6.0.3",
     "typescript-eslint": "^8.71.2",
     "vite": "^8.3.4"
